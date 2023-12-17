@@ -1,0 +1,159 @@
+
+
+Публикации | Кафедра бизнес-информатики и систем управления производством НИТУ МИСИС   
+  
+
+
+
+
+
+  ПоступающимСтудентамВыпускникамМедиатекаУниверситетОбразованиеНаукаБизнесуУниверситетСтруктура университетаКафедрыКафедра бизнес-информатики и систем управления производством×2Версия для слабовидящихЛичный кабинетПубликации
+ Основные публикации за 2022 г.
+
+
+ Статьи индексируемые в Scopus 
+
+
+Бахтадзе Н.Н., Бегенюк В.А., Елпашев Д.В., A, Захаров Э.А., Дончан Д.М., Салихов З.Г., Пятецкий В.Е. // Интеллектуальная система поддержки принятия решений на основе распознавания видеообразов фурменных очагов доменной печи // Заводская лаборатория. Диагностика материалов, т.88, № 1-1.М.: ООО “Издательство “ТЕСТ-ЗЛ”. 2022
+Бахтадзе Н.Н., Елпашев Д.В., Сулейкин А.С., Пятецкий В.Е. // Associative Rules-Driven Intelligent Production Schedule Control System for Digital Manufacturing Ecosystem//IFAC- PapersOnline, Volume 55, Issue 10. Nantes, France.: Elsevier. 2022
+Бахтадзе Н.Н., Бегенюк В.А., Елпашев Д.В., A, Захаров Э.А., Дончан Д.М., Салихов З.Г., Пятецкий В.Е. // Intelligent Decision Support System Based on Video Recognition of the Blast Furnace Tuyeres// Industrial laboratory. Material diagnostics, V 88, 1(1)., Moscow: TEST-ZL Publishing, LLC. 2022
+Methods of Information Technology Quality Control at the Enterprise Martyakova, E.V. , Gorchakova, E.N. Proceedings of the 2022 International Conference “Quality Management, Transport and Information Security, Information Technologies” IT and QM and IS 2022, 2022,pp. 177–180
+Transformation of the Quality Management System in the Digital Economy Martyakova, E.V. , Gorchakova, E.N. , Nagornaya, O.A. Advances in Science, Technology and Innovationthis link is disabled , 2022, pp. 893–896
+
+
+
+
+Основные публикации за 2021 г.
+
+
+ Статьи индексируемые в Scopus 
+
+
+Bakhtadze, Natalia, Elpashev, D., Suleykin, Alexander, Pyatetsky, V.. (2021). Digital Ecosystem Situational Control Based on a Predictive Model. IFAC-PapersOnLine. 54. 300-306. 10.1016/j.ifacol.2021.08.035.
+Bakhtadze, N. , Beginyuk, V. , Elpashev, D. . Zakharov, E. , Donchan, D. , Salikhov, Z. , Pyateckij, V.. (2022). Intelligent decision support system based on video recognition of the blast furnace tuyeres. Industrial laboratory. Diagnostics of materials. 88. 98-110. 10.26896/1028-6861-2022-88-1-I-98-110
+Макаров В.В. Lada сar sales models on the Russian market / Proceedings of the 14th International Conference “Management of Large-Scale System Development” (MLSD-2021). М.: IEEE, 2021. С. https://ieeexplore.ieee.org/document/9600234.
+Макаров В.В. The neural network to identify an object by a sequential training mode / Proceedings of the BICA — Procedia Computer Science, 2021. London, UK: Elsevier BV,2021. vol.190 (2021). С. 532-539.
+E. Martyakova. E. Gorchakova To the Issues of the Company’s Target Management System Formation // Proceedings of the 2022 International Conference “Quality Management, Transport and Information Security, Information Technologies”, IT and QM and IS 2021
+
+ ⠀ 
+	
+Статьи из списка ВАК (РИНЦ)
+
+
+Мартякова Е.Н., Горчакова Е.Н. Платформенный подход к цифровой трансформации университетов // Экономика строительства и природопользования № 3 (80) — 2021 — С.117-122
+Макаров В.В., Гусев С.С. Алгоритмы работы системы пожарной сигнализации как сегмента “умного дома” // Инженерно-строительный вестник Прикаспия. 2021. № 3 (37). С. 99–107.
+Макаров В.В., Гусев С.С. Итерационные модели эвакуации людей из здания как компоненты “Умного дома” // Инженерно-строительный вестник Прикаспия. 2021. № 3 (37). С. 114–122.
+
+
+
+
+Основные публикации за 2020 г.
+
+
+Статьи из списка ВАК (РИНЦ)
+
+
+Методические рекомендации к выполнению выпускной квалификационной работы : метод. указания / В.Е. Пятецкий, В.П. Разбегин, Д.С. Кузнецов. — М. : Изд. Дом НИТУ МИСИС, 2020. — 52 с.
+Системы интеллектуального менеджмента для цифрового земледелия. Часть 1, Бахтадзе Н.Н., Максимов Е.М., Максимова Н.Е., Дончан Д.М., Кузнецов Д.С., Захаров Э.А., Информационные технологии и вычислительные системы. 2020. № 2. С. 85-98.
+Системы интеллектуального менеджмента для цифрового земледелия. Часть 2, Бахатадзе Н.Н., Максимов Е.М., Максимова Н.Е., Дончан Д.М., Кузнецов Д.С., Захаров Э.А., Информационные технологии и вычислительные системы. 2020. № 2. С. 99-111.
+
+
+
+
+Основные публикации за 2019 г.
+
+
+Статьи индексируемые в Scopus
+
+
+N. Bakhtadze, B. Pavlov, V. Pyatetsky, A Suleykin Digital Energy Ecosystems// Proceedings of Manufacturing Modelling for Management and Control" (MIM 2019), 28 — 30 August 2019, Berlin- in IFAC PaperOnline
+Gorchakova E., Quality education and digitalization of the economy// Lecture notes in mechanical engineering. — 2019. — С.212-218
+V.V. Makarov, Ye.B. Frolov, I.S. Parshina, M.V. Ushakova, Design concept of digital twin// Proceedings of the 12th International Conference “Management of Large-Scale System Development” (MLSD). Moscow: IEEE, 2019.
+Alexander Rubchinsky. Notion of Graph Entanglement and its Application for Stock Market Analysis// 2019 IEEE 21st Conference on Business Informatics (CBI).
+
+ ⠀ 
+	
+Статьи из списка ВАК (РИНЦ)
+
+
+Горчакова Е.Н. Системный анализ бизнес-модели М3D на примере формирования ИТ-систем// Методы менеджмента качества. № 11. — 2019. — С.26-31.
+Горчакова Е.Н. Особенности моделирования бизнес-систем М3D // Методы менеджмента качества. № 10. — 2019. — С.46-50.
+Вихрова Н.О. Развитие управленческого учета и контроллинга в интегрированных системах управления// Материалы X международной научно-практической конференции CONTINUOUS DEVELOPMENT STRATEGIES , СТРАТЕГИИ ПОСТОЯННОГО РАЗВИТИЯ, Краматорск, 08 сентября 2017 г., 104 с. Издательство: ТОВ “Нілан-ЛТД”
+Вихрова Н.О. Инновационные риски и их оценка в высокотехнологичных компаниях//
+Сборник трудов конференции INNOVATIONS IN SCIENCE AND TECHNOLOGY
+Proceedings of II International scientific conference London, UK, 31 октября 2017 г. Издательство: SI Universum, 2017, с. 84. ISBN: 978-1-9997898-1-7
+Кузнецов Д.С., Котеленко С.А., Пятецкий В.Е. Идентификация операционной модели управления производственным комплексом // Проблемы управления. — 2019. — № 2. — С. 47–53
+
+
+
+
+Основные публикации за 2018 г.
+
+
+Статьи индексируемые в Scopus
+
+
+Бахтадзе Н.Н., Лотоцкий В.А., Пятецкий В.Е., Лотоцкий А.В. Identification Algorithms Based on the Associative Search of Analogs and Association Rules / Proceedinds of the International Conference on Time Series and Forecasting (ITISE 2018, Granada, Spain). Granada: Springer, 2018. С. 783-794.
+M.S. Gasparian, I.A. Kiseleva, D.G. Korneev, S.A. Lebedev, V.A. Lebedev. Strategic analysis of risks when implementing investment projects. Espasios. Vol.39 (№ 27) Year 2018. Page 16.
+Rubchinsky A. (2018) Graph Dichotomy Algorithm and Its Applications to Analysis of Stocks Market. In: Kalyagin V., Pardalos P., Prokopyev O., Utkina I. (eds) Computational Aspects and Applications in Large-Scale Networks. NET 2017. Springer Proceedings in Mathematics & Statistics, vol 247. Springer, Cham
+
+ ⠀ 
+	
+Статьи из списка ВАК (РИНЦ)
+
+
+Гинсберг К.С., Генкин А.Л. К основам научной методологии структурной идентификации для цели создания реальных систем автоматического управления с требуемыми свойствами // Вестник Череповецкого государственного университета. 2018. № 3 (84). С. 24-30.
+Смагличенко Т.А., Смагличенко А.В., Генкин А.Л., Саянкина М.К. Моделирование лучевых траекторий в технологиях просвечивания упругой среды // Информационные технологии и вычислительные системы. 2018. № 3. С. 52-58.
+Вопросы применения архитектурного подхода при профессиональной подготовке бизнес-информатиков. В.П. Разбегин, М.В.Ушакова, А.В. Габалин. Стр 278-280.// Управление развитием крупномасштабных систем (MLSD’2018): материалы Одиннадцатой междунар. конфер., 1 — 3 окт. 2018 г., Москва: в 2-х т. / Ин-т проблем упр. им. В.А.Трапезникова Рос.акад. наук; под общ. ред. С.Н.Васильева, А.Д.Цвиркуна. — Т. 1: Пленарные доклады, секции 1 — 7. — М.: ИПУ РАН, 2018. — 498 с. — ISBN 978-5-91450-218-
+Основы проектноориентированного обучения на базе архитектурного подхода В.П. Разбегин, М.В.Ушакова, А.В. Габалин. Стр 261-265.// Системы проектирования, технологической подготовки производства и управления этапами жизненного цикла промышленного продукта (CAD/CAM/PDM — 2018): труды XVIII Междунар. молодёж. конфер., 16-18 окт. 2018 г., Москва / под ред. А.В. Толока. — М.: ИПУ РАН, 2018. — 400 с. — ISBN 978-5-91450-226-0.
+Михеев А.Г. Методология управления финансовыми ресурсами в кредитных организациях.// Управленческие науки. 2018 — № 3 С. 32-47
+Рыжко А.Л. Каузальная классификация бизнес-процессов предприятия// Управленческие науки. 2018 — Т.8 № 1 С. 90-99
+Михеев А.Г., Пятецкий В.Е., Кузнецов Д.С. Разработка курса процессного управления предприятием с использованием свободного программного обеспечения. Открытое образование. 2018;22(2):71-80. https://doi.org/10.21686/1818-4243-2018-2-71-80
+
+
+Пресс-служба
+
+ press@edu.misis.ru
+Заявка на информационную поддержку
+Заявка на информационную поддержку для ученых
+
+
+Нашли опечатку?
+Выделите ее и нажмите Ctrl+Enter. Спасибо за участие! 
+Сервис предназначен только для отправки сообщений об орфографических и пунктуационных ошибках.
+Приемная комиссия:
++7 499 649-44-80
+vopros@misis.ru
+
+Абитуриенту
+Центр коммерциализации технологий
++7 495 638-46-57
+cctt@misis.ru
+
+Работа в Университете МИСИС
+Сведения об образовательной организации
+
+
+Канцелярия:
++7 495 955-00-32 
+ Факс: +7 499 236-21-05 
+kancela@misis.ru
+ 119049, Москва, Ленинский пр-кт, д. 4, стр. 1 
+					Написать намПодписаться на рассылку
+
+
+Техническая поддержка сайта: 
+site@edu.misis.ru
+Карта сайта
+
+Информация о закупках 
+Противодействие коррупции
+
+Бета-версия
+ Вопросы и предложения 
+ по сайту: site@edu.misis.ru
+
+
+© 2023 Университет науки и технологий МИСИС     Написать намПодписаться на рассылкуНаш сайт использует файлы cookie.
+      Мы не идентифицируем вас, а улучшаем работу сайта.
+      Оставаясь, вы даете согласие на обработку файлов cookie.Я согласен×Подписка на рассылку×

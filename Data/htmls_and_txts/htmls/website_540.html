@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="QkjA1d5hv2qb403aL7QxHPeWVrF1656JKNlsLaWM">
+
+
+    <title>Портал научных журналов</title>
+        <meta name="description" content="Elpub Repository">
+    <style>
+        .main-hero{
+            background-image: url(repo/bg/mis.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+<!-- Scripts -->
+    <script src="https://portal-journals.misis.ru/js/jquery-3.5.1.min.js"></script>
+    <script src="https://portal-journals.misis.ru/js/bootstrap.min.js"></script>
+
+<!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+    <!-- Styles -->
+        <link href="https://portal-journals.misis.ru/css/app.css?v=2809" rel="stylesheet">
+    <link href="https://portal-journals.misis.ru/css/bootstrap.min.css2809" rel="stylesheet">
+    <link href="https://portal-journals.misis.ru/css/custom.css?v=2809" rel="stylesheet">
+    <link href="https://portal-journals.misis.ru/repo/css/repo.css?v=2809" rel="stylesheet">
+    </head>
+<body>
+<div id="app">
+    <nav role="navigation" class="mobile-menu">
+        <div class="burger_container" id="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="mobile-back menu_off">
+            <ul>
+                <li style="margin-bottom: 20px">
+                                                                <a href="https://portal-journals.misis.ru/login">Вход</a>
+                                    </li>
+                <li><a href="https://portal-journals.misis.ru">Главная</a></li>
+                <li><a href="https://portal-journals.misis.ru/search?page=1&amp;search_query=">Поиск</a></li>
+
+                                    <li>
+                        <a href="https://portal-journals.misis.ru/new_articles">
+                        Новые статьи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://portal-journals.misis.ru/popular_articles">
+                        Популярные статьи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://portal-journals.misis.ru/news">
+                        Новости
+                        </a>
+                    </li>
+                                                    <li><a href="https://portal-journals.misis.ru/lang/en">English</a></li>
+                
+            </ul>
+        </div>
+        <div class="logo-mobile">
+            <a href="https://portal-journals.misis.ru">
+                <img src="https://portal-journals.misis.ru/repo/logo/mis.svg" width="120px">
+            </a>
+        </div>
+        <script>
+            $('#burger').click(function (e) {
+                e.preventDefault();
+                $(this).toggleClass('change');
+                $('.mobile-menu').toggleClass('mobile-menu-open');
+                $('.mobile-back').toggleClass('menu_on');
+                $('.mobile-back').toggleClass('menu_off');
+            })
+        </script>
+    </nav>
+    <nav class="pre-navbar">
+        <div class="logo-background" style="display: flex; justify-content: center">
+            <a href="https://portal-journals.misis.ru" style="display: flex; align-items: center">
+                <img src="https://portal-journals.misis.ru/repo/logo/mis.svg">
+            </a>
+        </div>
+        <div class="items-container">
+                            <div class="menu-holder">
+                    
+                    
+                    
+                    
+                </div>
+                        
+            
+            
+                                        <a href="https://portal-journals.misis.ru/new_articles">
+                    Новые статьи
+                </a>
+                <a href="https://portal-journals.misis.ru/popular_articles">
+                    Популярные статьи
+                </a>
+                <a href="https://portal-journals.misis.ru/news">
+                    Новости
+                </a>
+                                        <a class="nav-button login" id="login_btn" href="https://portal-journals.misis.ru/login">
+                    <img src="https://portal-journals.misis.ru/svg/author_icon_lock.svg">
+                    Войти
+                </a>
+                        <a class="nav-language" href="#">
+                Русский
+                <img src="https://portal-journals.misis.ru/svg/down-chevron.svg" class="chevron" width="15px" height="15px">
+            </a>
+            <div id="language_select">
+                <div class="back"> </div>
+                <li><a href="https://portal-journals.misis.ru/lang/ru">Русский</a></li>
+                <li><a href="https://portal-journals.misis.ru/lang/en">English</a></li>
+            </div>
+            <script>
+                $('.nav-language').click(function (x) {
+                    x.preventDefault();
+                    $('#language_select').toggleClass('show');
+                    $('.chevron').toggleClass('rotated');
+                });
+                $(document).mouseup(function(e) {
+                    container = $("#language_select");
+                    button = $('.nav-language');
+                    if (container.hasClass('show') && !container.is(e.target) && container.has(e.target).length === 0 && !button.is(e.target)) {
+                        container.toggleClass('show');
+                        $('.chevron').removeClass('rotated');
+                    }
+                });
+            </script>
+        </div>
+    </nav>
+    <nav class="post-navbar repo_accent_bg">
+
+    </nav>
+        <div class="intro">
+        <div class="main-hero">
+            <div class="main-capture">
+                <div class="main-text">
+                    <h2 class="repo_accent_bg">Портал научных журналов</h2>
+                    <p>Университета науки и технологий МИСИС<br>
+
+                        </p>
+                </div>
+                <form action="https://portal-journals.misis.ru/search_api" method="get" class="search-form">
+                    <input type="hidden" name="page" value="1">
+                    <div class="search-field">
+                        <input type="text" name="search_query" id="search_field" placeholder="Введите поисковый запрос">
+                        <div class="hero-button">
+                            <button type="submit" class="repo_main_bg bl-button">ПОИСК</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+            <div class="col-sm-12">
+        <h3>Журналы платформы</h3>
+    </div>
+    <div class="journals">
+                    <div class="journal">
+                <div class="journal_head">Горные науки и технологии / Mining Science and Technology</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://mst.misis.ru/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/3/Обложка-ГНиТ.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 2016 г.<br>
+• Учредитель журнала: НИТУ МИСИС.<br>
+• Является одним из основных научно-технических журналов, освещающих междисциплинарные направления, которые способствуют прогрессу в горном деле.<br>
+• Целевая аудитория – исследователи, специалисты в области горного дела, представители академического и профессионального сообществ.<br>
+• В журнале публикуются оригинальные статьи, описывающие результаты исследований, опыт реализации проектов в горнопромышленном комплексе, обзорные публикации.<br>
+• Индексируется в РИНЦ, Scopus, GeoRef, Dimensions, электронной базе Реферативных журналов ВИНИТИ РАН.<br>
+• Включен в международные Базы данных: CAS, EBSCO, J-Gate, Jisc Library Hub Discover, Ulrich’s Periodicals Directory.</font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://mst.misis.ru/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Известия высших учебных заведений. Материалы электронной техники / Materials of Electronics Engineering</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://met.misis.ru/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/2/MET_01_2022_Obl_P.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 1998 г.<br>
+• Учредитель журнала: НИТУ МИСИС.<br>
+• Один из основных российских научно-технических  журналов, освещающих проблемы получения и исследования свойств полупроводниковых, магнитных и диэлектрических материалов для микро- и наноэлектроники.<br>
+• В журнале публикуются специалисты - ученые и аспиранты ведущих высших учебных заведений и научных организаций России, стран ближнего и дальнего зарубежья.<br>
+• Журнал индексируется в Chemical Abstracts (CAS), EbscoHost, РИНЦ, РЖ/БД ВИНИТИ.<br>
+• Включен в Перечень ВАК (категория K2).<br>
+• Переводная версия <a href="https://moem.pensoft.net/">Modern Electronic Materials</a>, размещается на издательской платформе ARPHA (PenSoft, Болгария) и индексируется в Scopus, RSCI, РИНЦ, Chemical Abstracts, DOAJ, Altmetric, ASOS Indeks, EBSCOhost,  ProQuest </font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://met.misis.ru/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Известия вузов. Порошковая металлургия и функциональные покрытия / Powder Metallurgy and Functional Coatings</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://powder.elpub.ru">
+                        <img src="https://portal-journals.misis.ru/storage/journals/5/razvorotPM4-1.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 2007 г.<br>
+• Учредитель журнала: НИТУ МИСИС.<br>
+• Один из основных российских журналов по актуальным научным проблемам порошковой металлургии и инженерии поверхности, порошкового материаловедения, синтеза неорганических материалов в режиме горения, технологий покрытий и модифицирования поверхности, наноструктурных материалов и нанотехнологий, керамики и композитов, пористых и биоматериалов.<br>
+• В журнале публикуются научные сотрудники РАН и отраслевых научных центров, специалисты-практики, профессорско-преподавательский состав вузов, соискатели ученых степеней, другие специалисты России, стран СНГ и зарубежных стран. <br>
+• Журнал индексируется в Scopus, RSCI, РИНЦ, БД/РЖ ВИНИТИ.<br>
+• Включен в Перечень ВАК (категория K1)</font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://powder.elpub.ru">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Известия вузов. Цветная металлургия / Izvestiya. Non-Ferrous Metallurgy</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://cvmet.misis.ru/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/4/razvorotЦМ-1.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 1958 г.<br>
+• Учредитель журнала: НИТУ МИСИС.<br>
+• Один из основных научно-технических журналов по актуальным научным проблемам цветной металлургии и материаловедения. Отражает новые результаты фундаментальных, проблемно-ориентированных, поисковых научных исследований в аналитических статьях, обзорах и кратких сообщениях.<br>
+• В журнале публикуются научные сотрудники РАН и отраслевых научных центров, специалисты-практики, профессорско-преподавательский состав вузов, соискатели ученых степеней, другие специалисты России, стран СНГ и зарубежных стран. <br>
+• Журнал индексируется в RSCI, РИНЦ, РЖ/БД ВИНИТИ.<br>
+• Включен в Перечень ВАК (категория K1).</font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://cvmet.misis.ru/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Известия высших учебных заведений. Черная Металлургия / Izvestiya. Ferrous Metallurgy</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://fermet.misis.ru/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/1/razvorotChM-1.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 1958 г.<br>
+• Учредители журнала: НИТУ МИСИС, СибГИУ.<br>
+• Основная задача журнала - обобщение научных и практических достижений в области черной металлургии и материаловедения. <br>
+• В журнале публикуются научные сотрудники РАН и отраслевых научных центров, специалисты-практики, профессорско-преподавательский состав вузов, соискатели ученых степеней, другие специалисты России, стран СНГ и зарубежных стран.<br>
+• Журнал индексируется в Scopus, RSCI, Chemical Abstracts, РИНЦ, РЖ/БД ВИНИТИ.</font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://fermet.misis.ru/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Экономика промышленности / Russian Journal of Industrial Economics</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://ecoprom.misis.ru/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/6/ЭП_2023-cover-1.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 2008 г.<br>
+• Учредители журнала: НИТУ МИСИС, ОМК.<br>
+• Журнал сфокусирован на инновационном развитии индустрии производственно-потребительского цикла. Представляет собой дискуссионную площадку для обсуждения новейших достижений экономической науки, практики реализации передовых технологий и индустриального стратегирования.<br>
+• В журнале публикуются специалисты - стратегические лидеры, высший и средний управленческий персонал, ученые, инженеры, экономисты и практики всех отраслей промышленности и науки.<br>
+• Журнал индексируется в РИНЦ, РЖ/БД ВИНИТИ.<br>
+• Включен в Перечень ВАК (категория К2).</font>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://ecoprom.misis.ru/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+                    <div class="journal">
+                <div class="journal_head">Modern Electronic Materials</div>
+                <div class="journal_description">
+                    <a class="journal_img" href="https://moem.pensoft.net/">
+                        <img src="https://portal-journals.misis.ru/storage/journals/7/Modern Electronic Materials_Cover.jpg">
+                    </a>
+                    <div class="journal_abstract">
+                        <font size=2>• Основан в 2015 г.<br>
+• Учредитель журнала: НИТУ МИСИС.<br>
+• Язык публикаций: английский.<br>
+• Размещается на издательской платформе ARPHA (PenSoft, Болгария).<br>
+• Журнал освещает фундаментальные и практические вопросы в области материалов для микро- и наноэлектроники, изучения их структуры и свойств.<br>
+• В журнале публикуются специалисты - ученые и аспиранты ведущих высших учебных заведений и научных организаций России, стран ближнего и дальнего зарубежья.<br>
+• Журнал индексируется в Scopus, RSCI, РИНЦ, Chemical Abstracts, DOAJ, Altmetric, ASOS Indeks, CNKI, CrossRef, EBSCO Essentials и др.<br>
+                    </div>
+                </div>
+                <div class="journal_url">
+                    <a target="_blank" href="https://moem.pensoft.net/">Сайт журнала &gt;</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-12">
+            <h3>Новости</h3>
+        </div>
+        <div class="news">
+                            <a class="item_article" href="https://portal-journals.misis.ru/news/2">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2023-09-05 08:25:03</span>
+                    </div>
+                    <div class="title">
+                        Журнал Modern Electronic Materials принят в Scopus!
+                    </div>
+                    <div class="abstract">
+                                                Журнал Modern Electronic Materials принят в Scopus!
+Учредителем журнала является Университет науки и технологий МИСИС, выпуск издания осуществляется в сотрудничестве с издательством Pensoft Publishers (Болгария).
+Поздравляем коллег!
+                    </div>
+                </a>
+                            <a class="item_article" href="https://portal-journals.misis.ru/news/3">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2023-09-30 09:11:40</span>
+                    </div>
+                    <div class="title">
+                        Создан Телеграм-канал научного рецензируемого журнала открытого доступа Modern Electronic Materials
+                    </div>
+                    <div class="abstract">
+                                                Дорогие друзья, уважаемые коллеги!
+&nbsp;
+Приглашаем вас в Телеграм-канал научного рецензируемого журнала открытого доступа Modern Electronic Materials (MOEM). Журнал индексируется в Scopus, RSCI, DOAJ, РИНЦ.
+Мы создали этот канал, чтобы вы всегда...
+                    </div>
+                </a>
+                    </div>
+                <div class="col-sm-12">
+            <h3>Новые статьи</h3>
+        </div>
+        <div class="latest">
+                            <a class="item_article" href="https://blackmet.elpub.ru/jour/article/view/2630">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2023-11-11</span>
+                    </div>
+                    <div class="title">
+                        Влияние остаточного аустенита на механические свойства стали с 15 % Cr
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Пышминцев И. Ю., Битюков С. М., Гусев А. А.</span>
+                    </div>
+                    <div class="jtitle">
+                        Известия высших учебных заведений. Черная Металлургия
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/0368-0797-2023-5-571-579</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                Исследованы особенности влияния остаточного аустенита на механические свойства стали аустенитно-мартенситного класса с 15 % Cr после различных режимов термической обработки. По окончании нагрева под закалку и последующего отпуска или нагрева в межкри...
+                                            </div>
+                </a>
+                            <a class="item_article" href="https://blackmet.elpub.ru/jour/article/view/2636">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2023-11-11</span>
+                    </div>
+                    <div class="title">
+                        Вагнеровский параметр взаимодействия азота с кобальтом в жидкой стали
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Большов Л. А., Корнейчук С. К., Большова Э. Л.</span>
+                    </div>
+                    <div class="jtitle">
+                        Известия высших учебных заведений. Черная Металлургия
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/0368-0797-2023-5-610-612</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                Предложена простая теория термодинамических свойств жидких растворов азота в сплавах системы Fe – Co. Эта теория полностью аналогична теории для жидких растворов азота в сплавах системы Fe –  Cr, предложенной авторами в 2019 г. Теория основана на реш...
+                                            </div>
+                </a>
+                            <a class="item_article" href="https://blackmet.elpub.ru/jour/article/view/2633">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2023-11-11</span>
+                    </div>
+                    <div class="title">
+                        Об ограниченной возможности использования Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; и Al–Zn для защиты от коррозии в камере соляного тумана сплавов GdTbDyHoSc и GdTbDyHoY
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Гельчинский Б. Р., Ильиных Н. И., Игнатьева Е. В.</span>
+                    </div>
+                    <div class="jtitle">
+                        Известия высших учебных заведений. Черная Металлургия
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/0368-0797-2023-5-594-596</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                В настоящее время особый интерес представляют высокоэнтропийные сплавы (ВЭС) с гексагональной плотноупакованной структурой, состоящие из редкоземельных (РЗМ) элементов. В работе проведено исследование возможности Al2O3 и Al:Zn (1:1) играть роль защит...
+                                            </div>
+                </a>
+                    </div>
+                <div class="col-sm-12 popular-head">
+            <h3>Популярные статьи</h3>
+        </div>
+        <div class="popular">
+                            <a class="item_article" href="https://powder.elpub.ru/jour/article/view/429">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2019-03-21</span>
+                    </div>
+                    <div class="title">
+                        Исследование влияния дисперсности и гомогенности структуры на свойства порошковых метастабильных аустенитных карбидосталей и алмазного инструмента
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Оглезнева С. А., Саенков К. Л., Князев А. А.</span>
+                    </div>
+                    <div class="jtitle">
+                        Известия вузов. Порошковая металлургия и функциональные покрытия
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/1997-308X-2019-1-52-60</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                Исследованы процессы диффузии и гомогенизации в порошковых системах различной степени дисперсности «железо (5 мкм) – никель (5 мкм или 50 нм)» при спекании (900 и 1000 °С), а также искровом плазменном спекании с использованием метода Матано–Больцмана...
+                                            </div>
+                </a>
+                            <a class="item_article" href="https://cvmet.elpub.ru/jour/article/view/150">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2014-07-02</span>
+                    </div>
+                    <div class="title">
+                        ВЛИЯНИЕ СПОСОБА РАЗРУШЕНИЯ РУДЫ НА ПАРАМЕТРЫ КУЧНОГО ВЫЩЕЛАЧИВАНИЯ
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Карпухин А. И., Аксенов А. В., Яковлев Р. А.</span>
+                    </div>
+                    <div class="jtitle">
+                        Izvestiya Vuzov. Tsvetnaya Metallurgiya
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/0021-3438-2014-4-16-21</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                Рассмотрены основные проблемы интенсификации процессов кучного выщелачивания и определено перспективное направление совершенствования данного метода извлечения золота из золотосодержащих руд. Предложено использовать в цикле измельчения валковые дроби...
+                                            </div>
+                </a>
+                            <a class="item_article" href="https://cvmet.elpub.ru/jour/article/view/193">
+                    <div class="article_date">
+                        <img src="https://portal-journals.misis.ru/Kalend.png">
+                        <span>2015-06-17</span>
+                    </div>
+                    <div class="title">
+                        ПЕРЕРАБОТКА ЛЕЖАЛЫХ ХВОСТОВ СВИНЦОВО-ЦИНКОВОЙ ОБОГАТИТЕЛЬНОЙ ФАБРИКИ
+                    </div>
+                    <div class="authors">
+                        <img src="https://portal-journals.misis.ru/autor.png">
+                        <span>Евдокимов С. И., Евдокимов В. С.</span>
+                    </div>
+                    <div class="jtitle">
+                        Izvestiya Vuzov. Tsvetnaya Metallurgiya
+                    </div>
+                                            <div class="doi">
+                            <img src="https://portal-journals.misis.ru/DOI.png">
+                            <span>10.17073/0021-3438-2015-3-3-11</span>
+                        </div>
+                                        <div class="abstract">
+                                                                                
+                                            </div>
+                </a>
+                    </div>
+        </div>
+    <div class="footer">
+        <div class="col-7 np left">
+            
+                
+            
+            
+        </div>
+        <div class="col-5 np">
+            © 2012 - 2023
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym('000000', "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/000000" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

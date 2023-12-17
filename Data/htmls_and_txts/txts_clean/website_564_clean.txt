@@ -1,0 +1,1 @@
+beginvcalendar version2.0 prodidhackswhandcalnonsgml v1.0en beginvevent categoriesпрофнавигация dtstart20231102t100000 dtend20231102t170000 summaryосенняя ярмарка вакансий description locationхолл первого этажа корпуса б endvevent endvcalendar
