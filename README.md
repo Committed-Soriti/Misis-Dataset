@@ -68,3 +68,5 @@
 После завершения этих шагов у вас будет подготовленный датасет, который можно использовать для обучения моделей
 ![image](https://github.com/Committed-Soriti/Misis-Dataset/assets/128974407/641c1794-6de4-455f-85db-c89fbaf9ae9c)
 
+Ссылка на датасет от 07.12.2023 - https://disk.yandex.ru/d/EPx28qzdIillHg
+
